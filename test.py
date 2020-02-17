@@ -3,8 +3,12 @@ def test_01():
  assert 'h' in x
 
 def test_02():
- x = "hello"
+ x = "xythis"
  assert 'x' in x
+
+def test_03():
+ x = "xythis"
+ assert 'y' in x
 
 def add(a,b):
  return a+b
